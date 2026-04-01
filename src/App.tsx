@@ -80,7 +80,7 @@ function App() {
         </motion.div>
 
         {/* Massive Background Text behind main subjects */}
-        <motion.div style={{ position: 'absolute', zIndex: -1, width: '100%', textAlign: 'center', top: '50%', transform: 'translateY(-50%)', opacity: opacityHeroText }}>
+        <motion.div style={{ position: 'absolute', zIndex: -1, pointerEvents: 'none', width: '100%', textAlign: 'center', top: '50%', transform: 'translateY(-50%)', opacity: opacityHeroText }}>
           <h1 className="text-stroke" style={{ fontSize: 'min(24vw, 30rem)', lineHeight: 0.8, margin: 0, letterSpacing: '-0.05em', userSelect: 'none' }}>
             DUBAI
           </h1>
@@ -128,7 +128,8 @@ function App() {
             width: 'min(400px, 90vw)',
             display: 'flex',
             flexDirection: 'column',
-            gap: '1.5rem'
+            gap: '1.5rem',
+            zIndex: 10
           }}
         >
           <h3 style={{ color: 'var(--color-white)', fontSize: '1.2rem', fontFamily: 'var(--font-sans)', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
@@ -439,7 +440,7 @@ function App() {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
               className="glass-panel contact-form"
-              style={{ background: 'var(--color-white)', padding: '3rem', borderRadius: '24px', boxShadow: 'var(--shadow-lg)' }}
+              style={{ background: 'var(--color-white)', padding: '3rem', borderRadius: '24px', boxShadow: 'var(--shadow-lg)', zIndex: 10 }}
             >
               <form style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }} onSubmit={(e) => e.preventDefault()}>
                 <div style={{ display: 'flex', gap: '1rem' }}>
