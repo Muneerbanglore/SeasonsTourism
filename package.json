@@ -2,7 +2,7 @@
   "name": "goldenwings-tourism",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Muntlore.github.io/SeasonsTourism/",
+  "homepage": "http://www.goldenwingstourism.ae/",
   "type": "module",
   "scripts": {
     "dev": "vite",
