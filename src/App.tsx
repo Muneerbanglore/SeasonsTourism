@@ -440,7 +440,7 @@ function App() {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
               className="glass-panel contact-form"
-              style={{ background: 'var(--color-white)', padding: '3rem', borderRadius: '24px', boxShadow: 'var(--shadow-lg)', zIndex: 10 }}
+              style={{ padding: '3rem', borderRadius: '24px', zIndex: 10 }}
             >
               <form style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }} onSubmit={(e) => e.preventDefault()}>
                 <div style={{ display: 'flex', gap: '1rem' }}>
