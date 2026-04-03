@@ -431,6 +431,14 @@ function App() {
                     <strong>0555924663</strong>
                   </div>
                 </div>
+
+                <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', color: 'var(--color-primary)' }}>
+                  <div style={{ background: 'var(--color-bg-alt)', padding: '1rem', borderRadius: '50%' }}><Map size={20} color="var(--color-accent)" /></div>
+                  <div>
+                    <span style={{ display: 'block', fontSize: '0.8rem', color: 'var(--color-text-light)' }}>Official Address</span>
+                    <strong>Al Sharq Street, Shop No. 3, Sharjah, UAE</strong>
+                  </div>
+                </div>
               </div>
             </motion.div>
 
@@ -482,7 +490,8 @@ function App() {
             <div>
               <h4 style={{ fontSize: '1.1rem', marginBottom: '1.5rem', color: 'var(--color-accent)' }}>Contact</h4>
               <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.8rem', color: 'rgba(255,255,255,0.8)' }}>
-                <li>Dubai, United Arab Emirates</li>
+                <li>Al Sharq Street, Shop No. 3</li>
+                <li>Sharjah, UAE 00000</li>
                 <li>goldenwingstourism@gmail.com</li>
                 <li>0555924663</li>
               </ul>
